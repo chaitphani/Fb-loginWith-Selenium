@@ -1,8 +1,11 @@
 from selenium import webdriver
-from credentials_all import fb_username, fb_pass
+#from credentials_all import fb_username, fb_pass
 
 
 # to login...
+fb_username = input('Enter a valid username or mail id: ')
+
+fb_pass = input('Enter a valid password to login: ')
 
 url = 'https://www.facebook.com/'
 
